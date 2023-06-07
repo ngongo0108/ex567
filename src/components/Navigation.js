@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 export default class Navigation extends Component {
     render() {
         return (
@@ -15,3 +16,23 @@ export default class Navigation extends Component {
         )
     }
 }
+
+// import React from 'react'
+// import { Link } from 'react-router-dom'
+// import { Navbar, NavIteim, Icon } from 'react-materialize'
+// export default function Navigation() {
+//     render(){
+//         return (
+//             <div>
+//                  <nav>
+//                      <ul>
+//                          <li><a className='active' href='#home'>Home</a></li>
+//                          <li><a href='#news'>News</a></li>
+//                          <li><a href='#about'>About</a></li>
+//                          <li><a href='#contact'>Contact</a></li>
+//                      </ul>
+//                  </nav>
+//              </div>
+//         )
+//     }
+// }

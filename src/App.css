@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +40,59 @@
     transform: rotate(360deg);
   }
 }
+.active{
+  
+  
+}
+li:hover{
+  background-color: rgb(175, 163, 32);
+  padding: 10px;
+}
+ul{
+  background-color: rgb(69, 67, 67);
+  padding: 10px;
+  text-align: left;
+
+}
+li {
+  margin-left: 5px;
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+}
+a {
+  color:  aliceblue;
+  text-decoration: none;
+} 
+img {
+  width: 100%;
+}
+button{
+  color:  aliceblue;
+  background-color: black;
+  border: none;
+  min-width: 100%;
+  padding: 8px 0px; 
+}
+p.title{
+  color: rgb(124, 121, 121);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.column {
+  border: 5px solid white;
+  width: 32%; 
+  padding-left: 8px;
+  
+}
+.card {
+    background-color: #d1d3d3;
+}
+h4{
+  color:  aliceblue;
+  padding-bottom: 10px;
+  background-color: rgb(175, 163, 32);
+  }
